@@ -1,0 +1,12 @@
+[package]
+name = "sat_recrutation"
+version = "0.1.0"
+edition = "2021"
+author = ["Borys Malinowski"]
+
+[dependencies]
+rocket = "0.4.11"
+rand = "0.8.5"
+float_eq = "1.0.0"
+reqwest = "0.11.11"
+tokio = { version = "1.20.1", features = ["full"] }
